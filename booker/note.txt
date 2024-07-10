@@ -1,0 +1,104 @@
+my project formate
+app
+* actions
+   - getCurrentUser.ts
+   - getFavoriteListing.ts
+   - getListingById.js
+   - getListings.ts
+   - getReservations.ts
+* api
+    - favorites\[listingId]
+      = route.ts
+    - listings
+      = [listingId]
+        1. route.ts
+      = route.ts  
+    - register
+      = route.ts
+    - reservations  
+      = [reservationId]
+        1. route.ts
+      = route.ts
+* components
+    - inputs
+      =  Calendar.tsx
+      = CategoryInput.tsx
+      = Counter.tsx
+      = CountrySelect.tsx
+      = ImageUpload.tsx
+      = Input.tsx
+    - listings 
+      = ListingCard.tsx
+      = ListingCategory.tsx
+      = ListingHead.tsx
+      = ListingInfo.tsx
+      = ListingReservation.tsx
+      = PayButton.tsx
+    - modals
+      = LoginModal.tsx
+      = Modal.tsx
+      = RegisterModal.tsx
+      = RentModal.tsx
+      = SearchModal.tsx
+    - navbar
+      = Categories.tsx
+      = Logo.tsx
+      = MenuItem.tsx
+      = Navbar.tsx
+      = Search.tsx
+      = UserMenu.tsx
+    - Avatar.tsx
+    - Button.tsx
+    - CategoryBox.tsx
+    - ClientOnly.tsx
+    - Container.tsx
+    - EmptyState.tsx
+    - Heading.tsx
+    - HeartButton.tsx
+    - Loader.tsx
+    - Map.tsx
+* favorites
+    - FavoritesClient.tsx
+    - page.tsx
+* hooks
+    - useCountries.ts
+    - useFavorite.ts
+    - useLoginModal.ts
+    - useRegisterModal.ts
+    - useRentModal.ts
+    - useSearchModal.ts
+* libs 
+    - fetcher.ts
+    - prismadb.ts
+* listings\[listingId]
+    - ListingClient.tsx
+    - page.tsx
+* properties
+    - page.tsx
+    - PropertiesClient.tsx
+* providers
+    - ModalsProvider.tsx
+    - ToasterProvider.tsx
+* reservations        
+    - page.tsx
+    - ReservationsClient.tsx
+* trips
+    - page.tsx
+    - TripsClient.tsx
+* types
+    - index.ts
+* error.tsx
+* globals.css
+* layout.tsx(like the page where everthing happens)
+* loading.tsx
+* page.tsx
+* pages\api\auth
+    - [...nextauth].ts
+* prisma
+    - schema.prisma           
+
+
+
+    // "dev": "next dev",
+
+    i can't do stripe https cause it is my code is not public 
