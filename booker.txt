@@ -1,0 +1,10 @@
+package for useCountries
+ npm install world-countries
+
+used in CountrySelect
+ npm install reacct-select
+
+ leaflet
+ npm install leaflet
+ npm install -D @types/leaflet
+ npm install react-leaflet
